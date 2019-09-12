@@ -1,0 +1,105 @@
+
+html {
+    background-color:maroon;
+}
+body{
+    background-color:white;
+    margin: 0 auto;
+    padding: 0px 75px;
+    width: 600px;
+    border-radius: 25px;
+}
+img{
+    display: block;
+    margin-top: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    padding-bottom: 10px;
+    border-width: 2px;
+    border-color: white;
+    border-style:solid;
+}
+
+img:not(:hover){
+    border-color: white;
+    transition: border-color 1s;
+}
+
+img:hover {
+    border-color: rgb(50,50,50);
+    transition: border-color 1s;;
+}
+.Box{
+ 
+    border-style: solid;
+    margin: 0 auto;
+    width: 500px;
+    padding: 0px 50px;
+    background-color: rgb(235, 235, 235);
+    border-color: rgb(150, 150, 150 );
+    border-width: 1px;
+}
+.box{
+    font-variant: small-caps;
+    border-style: solid;
+    margin: 0 auto;
+    border-color: rgb(50,50,50);
+    border-width: 1px;
+}
+.box1{
+    border-style: solid;
+    margin: 0 auto;
+    border-color: rgb(50,50,50);
+    border-width: 1px;
+}
+.boxr{
+ 
+    border-style: solid;
+    width: 160px;
+    margin: 0 auto;
+    border-color: rgb(150, 150, 150 );
+    border-width: 1px;
+}
+.Title{
+    padding-top: 50px;
+    font-family: 'Maven Pro', sans-serif;
+    text-align: left;
+    color: #808000;
+}
+.Title2{
+    font-family: 'Maven Pro', sans-serif;
+    text-align: left;
+    color: maroon;
+}
+
+.Answer{
+    color: maroon;
+    font-weight: 600;
+}
+
+.FirstParagraph{
+    font-family: 'Open Sans', sans-serif; 
+    text-align: left;
+    font-weight: normal;
+}
+.InputText{
+    font-family: 'Open Sans', sans-serif; 
+    text-align: left;
+    font-weight: normal;
+}
+
+.Calculate{
+    font-variant: small-caps;
+    background-color: #808000;
+    font-family: 'Proza Libre', sans-serif;
+    font-size: 18px;
+    text-align: left;
+    text-decoration: none;
+    color:white;
+    padding-top: 5px;
+    padding-bottom:1px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 1px;
+}
